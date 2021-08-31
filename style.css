@@ -6,7 +6,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   color: whitesmoke;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .container {
@@ -87,7 +87,6 @@
   width: 50%;
   height: 40px;
   margin-top: 10%;
-  overflow: hidden;
 }
 
 footer li {
@@ -106,6 +105,12 @@ footer li a img:hover {
 
 footer li a img {
   width: 35px;
+}
+
+@media only screen and (min-width:780px) {
+  body {
+    overflow: scroll;
+  }
 }
 
 /* Footer Section End */
