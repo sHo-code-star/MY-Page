@@ -6,11 +6,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   color: whitesmoke;
-  overflow: hidden;
-}
-
-body {
-  overflow-y: scroll;
+  overflow: auto;
 }
 
 .container {
@@ -91,6 +87,7 @@ body {
   width: 50%;
   height: 40px;
   margin-top: 10%;
+  overflow: hidden;
 }
 
 footer li {
