@@ -10,7 +10,7 @@
 }
 
 body {
-  overflow-x: scroll;
+  overflow-y: scroll;
 }
 
 .container {
